@@ -1,12 +1,14 @@
 import React from 'react';
 import Info from './components/Info';
+import ProductList from './components/ProductList';
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex flex-col">
       <Info />
+      <ProductList />
     </div>
   );
 }

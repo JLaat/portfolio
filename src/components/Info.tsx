@@ -2,8 +2,8 @@ import React from 'react'
 
 const Info = () => {
   return (
-    <div className='infoWrapper flex h-[100vh]'>
-        <div className="infoLeft basis-1/2 p-10">
+    <div className='infoWrapper flex'>
+        <div className="infoLeft basis-1/2 p-10 h-[75vh]">
             <h2 className='flex-1 text-[4em] font-poppins'>Hello 👋</h2>
             <h2 className='flex-1 text-[3.5em] font-poppins'>I'm Joni</h2>
             <div className="title h-[50px] overflow-hidden">

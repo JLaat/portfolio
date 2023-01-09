@@ -4,7 +4,9 @@
 
 html, body, .App {
   height: 100%;
+  overflow: auto;
 }
+
 * {
     margin: none;
 }
@@ -26,3 +28,4 @@ html, body, .App {
         transform: translateY(-200px);
     }
 }
+
