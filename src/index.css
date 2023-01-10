@@ -14,6 +14,12 @@ html, body, .App {
     animation: move 10s ease-in-out infinite alternate;
     
 }
+
+.project:hover .projectImage {
+    transform: translateY(-200px);
+    transition: transform 1s ease-in-out;
+}
+
 @keyframes move {
     25% {
         transform: translateY(-50px);

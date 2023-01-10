@@ -1,44 +1,54 @@
-import React from 'react'
-import Product from './Product'
+import React from "react";
+import Product from "./Product";
+import { data } from "../data";
 
 const ProductList = () => {
   return (
-    <div className="productWrapper h-[100%]">
-        <h1 className='font-poppins text-[3em]'>My Projects</h1>
-        <div className='grid grid-cols-3 grid-rows-2 gap-10'>
-        <Product 
-      img="https://imagizer.imageshack.com/img923/6121/pdHoAY.png"
-      name='Cv Project'
-      github='https://github.com/JLaat/cv-project'
-      live='https://jlaat.github.io/cv-project/' />
-      <Product 
-      img="https://imagizer.imageshack.com/img923/8146/k6Qybf.png"
-      name='Weather App'
-      github='https://github.com/JLaat/cv-project'
-      live='https://jlaat.github.io/cv-project/' />
-      <Product 
-      img="https://imagizer.imageshack.com/img924/4756/dYqN6T.png"
-      name='Calculator'
-      github='https://github.com/JLaat/cv-project'
-      live='https://jlaat.github.io/cv-project/' />
-      <Product 
-      img="https://imagizer.imageshack.com/img922/7820/5iHeav.png"
-      name='Admin Dashboard'
-      github='https://github.com/JLaat/cv-project'
-      live='https://jlaat.github.io/cv-project/' />
-      <Product 
-      img="https://imagizer.imageshack.com/img922/2875/AgekOR.png"
-      name='Landing Page'
-      github='https://github.com/JLaat/cv-project'
-      live='https://jlaat.github.io/cv-project/' />
-      <Product 
-      img="https://imagizer.imageshack.com/img923/6121/pdHoAY.png"
-      name='Cv Project'
-      github='https://github.com/JLaat/cv-project'
-      live='https://jlaat.github.io/cv-project/' />
+    <div className="px-[50px] py-[100px] flex flex-col items-center text-center">
+      <div className="w-[65%]">
+        <h1 className="font-poppins text-[50px]">My Little Projects</h1>
+        <p>Projects that I've done besides my university studies</p>
+      </div>
+      <div className="flex flex-wrap justify-between w-[100%]">
+        <Product
+          img={data[0].img}
+          name={data[0].name}
+          github={data[0].github}
+          live={data[0].live}
+        />
+        <Product
+          img={data[1].img}
+          name={data[1].name}
+          github={data[1].github}
+          live={data[1].live}
+        />
+        <Product
+          img={data[2].img}
+          name={data[2].name}
+          github={data[2].github}
+          live={data[2].live}
+        />
+        <Product
+          img={data[0].img}
+          name={data[0].name}
+          github={data[0].github}
+          live={data[0].live}
+        />
+        <Product
+          img={data[0].img}
+          name={data[0].name}
+          github={data[0].github}
+          live={data[0].live}
+        />
+        <Product
+          img={data[0].img}
+          name={data[0].name}
+          github={data[0].github}
+          live={data[0].live}
+        />
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default ProductList
+export default ProductList;
