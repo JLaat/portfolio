@@ -16,6 +16,18 @@ const data = [
         name: "Admin Dashboard",
         github: "https://github.com/JLaat/admin-dashboard",
         live: "https://jlaat.github.io/admin-dashboard/"
+    },
+    {
+        img: "https://imagizer.imageshack.com/img923/4264/7lkaVs.png",
+        name: "Landing Page",
+        github: "https://github.com/JLaat/landing-page",
+        live: "https://jlaat.github.io/landing-page/"
+    },
+    {
+        img:"https://imagizer.imageshack.com/img922/5710/arAC3Z.png",
+        name:"Calculator",
+        github:"https://github.com/JLaat/Calculator",
+        live:"https://jlaat.github.io/Calculator/"
     }
 ]
 

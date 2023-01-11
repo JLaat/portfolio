@@ -9,7 +9,7 @@ const ProductList = () => {
         <h1 className="font-poppins text-[50px]">My Little Projects</h1>
         <p>Projects that I've done besides my university studies</p>
       </div>
-      <div className="flex flex-wrap justify-between w-[100%]">
+      <div className="flex flex-wrap justify-around w-[100%]">
         <Product
           img={data[0].img}
           name={data[0].name}
@@ -29,16 +29,16 @@ const ProductList = () => {
           live={data[2].live}
         />
         <Product
-          img={data[0].img}
-          name={data[0].name}
-          github={data[0].github}
-          live={data[0].live}
+          img={data[3].img}
+          name={data[3].name}
+          github={data[3].github}
+          live={data[3].live}
         />
         <Product
-          img={data[0].img}
-          name={data[0].name}
-          github={data[0].github}
-          live={data[0].live}
+          img={data[4].img}
+          name={data[4].name}
+          github={data[4].github}
+          live={data[4].live}
         />
         <Product
           img={data[0].img}
