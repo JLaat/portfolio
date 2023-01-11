@@ -1,8 +1,10 @@
 import React from "react";
+import LogoContainer from "./LogoContainer";
+import Socials from "./Socials";
 
 const Info = () => {
   return (
-    <div className="infoWrapper flex flex-1">
+    <div className="infoWrapper flex flex-1 flex-col">
       <div className="infoLeft flex-1 basis-1/2 p-10 h-[75vh]">
         <h2 className="flex-1 text-[4em] font-poppins">Hello 👋</h2>
         <h2 className="flex-1 text-[3.5em] font-poppins">I'm Joni</h2>
@@ -25,12 +27,8 @@ const Info = () => {
             </h3>
           </div>
         </div>
-        <div className="flex text-[2em] font-poppins justify-center">
-          An enthusiastic IT student from Finland. Currently my mind is focused
-          on learning Web Development.
-        </div>
       </div>
-      <div className="infoRight"></div>
+      <LogoContainer />
     </div>
   );
 };

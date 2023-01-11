@@ -5,9 +5,8 @@ import { data } from "../data";
 const ProductList = () => {
   return (
     <div className="px-[50px] py-[100px] flex flex-col items-center text-center">
-      <div className="w-[65%]">
-        <h1 className="font-poppins text-[50px]">My Little Projects</h1>
-        <p>Projects that I've done besides my university studies</p>
+      <div className="w-[65%] p-10 flex flex-col justify-center items-center">
+        <h1 className="font-poppins text-[50px]">Projects</h1>
       </div>
       <div className="flex flex-wrap justify-around w-[100%]">
         <Product
