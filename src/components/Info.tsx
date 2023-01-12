@@ -1,6 +1,5 @@
 import React from "react";
 import LogoContainer from "./LogoContainer";
-import Socials from "./Socials";
 
 const Info = () => {
   return (

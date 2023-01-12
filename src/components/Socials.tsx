@@ -4,7 +4,7 @@ import linkedin from ".././assets/images/linkedin.png";
 
 const Socials = () => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex flex-col gap-10 py-10 justify-center items-center">
       <a href="https://github.com/JLaat">
         <img src={github} alt="githubi" />
       </a>
