@@ -28,6 +28,12 @@ const data = [
         name:"Calculator",
         github:"https://github.com/JLaat/Calculator",
         live:"https://jlaat.github.io/Calculator/"
+    },
+    {
+        img:"https://imagizer.imageshack.com/img922/2524/OIXE6Z.png",
+        name:"Portfolio",
+        github:"https://github.com/JLaat/portfolio",
+        live:"https://github.com/JLaat/portfolio"
     }
 ]
 

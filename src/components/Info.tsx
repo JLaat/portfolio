@@ -16,13 +16,13 @@ const Info = () => {
               Career Changer
             </h3>
             <h3 className="titleItem flex-1 flex items-center justify-center text-blue-600 text-[30px] h-[50px]">
-              Nice Guy
+              Future Dev
             </h3>
             <h3 className="titleItem flex-1 flex items-center justify-center text-blue-600 text-[30px] h-[50px]">
               Nice Guy
             </h3>
             <h3 className="titleItem flex-1 flex items-center justify-center text-blue-600 text-[30px] h-[50px]">
-              Nice Guy
+              Roofer
             </h3>
           </div>
         </div>

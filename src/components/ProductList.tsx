@@ -10,6 +10,12 @@ const ProductList = () => {
       </div>
       <div className="flex flex-wrap justify-around w-[100%]">
         <Product
+          img={data[5].img}
+          name={data[5].name}
+          github={data[5].github}
+          live={data[5].live}
+        />
+        <Product
           img={data[0].img}
           name={data[0].name}
           github={data[0].github}
@@ -38,12 +44,6 @@ const ProductList = () => {
           name={data[4].name}
           github={data[4].github}
           live={data[4].live}
-        />
-        <Product
-          img={data[0].img}
-          name={data[0].name}
-          github={data[0].github}
-          live={data[0].live}
         />
       </div>
     </div>

@@ -1,22 +1,27 @@
-import { useState } from "react";
+import { useContext } from "react";
 import Info from "./components/Info";
 import ProductList from "./components/ProductList";
 import NavBar from "./components/NavBar";
 import Contact from "./components/Contact";
-import { ThemeProvider } from "./context";
+import { ThemeContext } from "./context";
 
 import "./App.css";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
-    <div className="App overflow-visible z-3">
-      <ThemeProvider>
-        <NavBar />
-        <Info />
-        <ProductList />
-        <Contact />
-      </ThemeProvider>
+    <div
+      className="App overflow-visible z-3"
+      style={{
+        backgroundColor: darkMode ? "#222" : "white",
+        color: darkMode && "white",
+      }}
+    >
+      <NavBar />
+      <Info />
+      <ProductList />
+      <Contact />
     </div>
   );
 }

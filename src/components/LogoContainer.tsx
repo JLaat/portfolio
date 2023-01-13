@@ -12,7 +12,7 @@ import jest from ".././assets/images/jest.png";
 
 const LogoContainer = () => {
   return (
-    <div className="flex flex-wrap gap-3 justify-center items-center border-t-2 border-solid xl:mx-[40em] py-7">
+    <div className="flex flex-wrap gap-3 justify-center items-center border-t-2 border-solid xl:mx-[40em] py-7 px-2">
       <img src={html} alt="css" />
       <img src={css3} alt="css" />
       <img src={java} alt="java" />
