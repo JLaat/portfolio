@@ -25,7 +25,7 @@ const Contact = () => {
       );
   };
   return (
-    <div className="h-[100%] relative">
+    <div className="contactWrapper h-[100%] relative">
       <div className="w-[10px] md:w-[20px] h-[100%] bg-blue-600 absolute"></div>
       <div className="cWrapper flex flex-col justify-center items md:flex-row p-[20px] md:p-[50px]">
         <div className="cLeft flex-1">
