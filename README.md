@@ -1,7 +1,7 @@
 # My Portfolio Webpage
 I did this page to develop my React/TypeScript skills, and to showcase projects that I've done.
 
-Please check it out at https://jonilaatikainen.com/
+Please check it out at https://jlaat.github.io/portfolio/
 
 ## Technologies 
 <table>
